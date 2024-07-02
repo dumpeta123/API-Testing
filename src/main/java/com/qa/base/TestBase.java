@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class TestBase {
+	
+	//WebDriver driver;
 
 	public int RESPONSE_STATUS_CODE_200 = 200;
 	public int RESPONSE_STATUS_CODE_500 = 500;
@@ -26,6 +28,8 @@ public class TestBase {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		
+		
 
 	}
 
